@@ -12,6 +12,7 @@ export default function Header({}: Props) {
         
         <ul className='flex gap-2'>
             <li><Enlace text='Inicio' route='/'  /></li>
+            <li><Enlace text='Galeria' route='/galeria'  /></li>
             <li><Enlace text='Servicios' route='/servicios' /></li>
             <li><Enlace text='Contacto' route='/contacto' /></li>
         </ul>
